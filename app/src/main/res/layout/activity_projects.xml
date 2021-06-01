@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectsActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center_vertical"
+                android:text="Upcoming Projects"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bree_serif"
+                android:padding="2.5dp"
+                android:text="NCWSC PARTNERS WITH JKUAT"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Company recently launched a siltation assessment project at Ruiriu dam in collaboration with Jomo Kenyatta University of Agriculture (JKUAT).\n
+
+The objectives of the collaborative study are to determine the current volume of the Ruiru reser-voir ; recover sediments as well as map the po-tential source of sediment in the upstream water-shed.\n
+
+The results of the pilot study will also help map out the potential sources of the sediment and pollutant that consistently feed into the reservoir so as to engage the upstream community in target-ed mitigation measures.\n
+
+The study will assist the company identify its needs and carry out sensitization on the commu-nity upstream on the impact of their activities on the dam downstream.\n
+
+After a successful completion of the research study the two organizations intend to conduct a similar one at Ndakaini Dam."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bree_serif"
+                android:text="AQTAP WATER DISPENSER"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nairobi City Water and Sewerage Company limited (NCWSC) and Grundfos Lifelink (GLL), a water engineering company based in Denmark, have partnered to introduce a new model for provision of clean and affordable water to informal settlements in Nairobi.\n
+
+The water dispenser referred to as the AQtap has been installed in Nairobi’s Mathare slum. The system, the first of its kind in Kenya, uses smart cards with self-service kiosks that supply the water for as low as low as 50 cents for a 20-litre jerrican.\n
+
+Residents simply swipe smart cards which they load with money at the water kiosk, top up using the mobile handsets and pay for the amount of water that one wants to fetch. There is no limit to the amount of cash that one can top up. The water ATM dispenser will also stop cases spread of waterborne diseases occasioned by contaminated water sold by water vendors.\n
+
+The water ATM initiative gives the slum dwellers reliable access to water all the time and cushions them from cartels that have for long exploited them by selling water at Ksh. 20-50 for 20-litre jerrican.\n
+
+This technology is aimed at helping NCWSC to design water service provision to match consumer behavior as well as identifying quantities of Non-Revenue Water (NRW) for immediate reduction. The technology will also ensure fixed tariff-payment either through mobile payment or with digital money transfer.\n
+
+The partnership initiative model for water supply management ensures:\n
+
+1)Increase access to sustainable water supply through reliable service delivery and maintenance\n
+2)Water provided at affordable and fixed prices\n
+3)Transparency and accountability of revenue management\n
+4)Ease of payment through use of mobile-payment, which also increases costumers’ familiarity with mobile technology\n
+5)Security of payment through the mobile phone as opposed to via a bank account, which most residents in the informal settlements do not have access to.\n
+6)Involvement in water management for communities which increase ownership of the water points"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

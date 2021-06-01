@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CautionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Water Safety Guidelines"
+                android:textStyle="italic"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/guidelines"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="italic"
+                android:text="Covid guidelines"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/corona"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="italic"
+                android:text="How to store water"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/store_water"></ImageView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

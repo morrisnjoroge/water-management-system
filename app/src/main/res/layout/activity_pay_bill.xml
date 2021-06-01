@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_windows"
+    tools:context=".PayBillActivity">
+
+    <ImageView
+        android:id="@+id/imageViewDial"
+        android:layout_width="159dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payslider"
+        app:srcCompat="@drawable/dial" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/baloo"
+        android:text="Ways to Pay your Bills"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/payslider"
+        android:layout_width="419dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="8dp"
+        app:auto_cycle="true"
+        app:corner_radius="5"
+        app:delay="0"
+        app:error_image="@drawable/gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        app:period="5000"
+        app:placeholder="@drawable/gradient" />
+
+    <ImageView
+        android:id="@+id/imageViewMpesa"
+        android:layout_width="195dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payslider"
+        app:srcCompat="@drawable/mpesa" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="MPESA option"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMpesa" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="USSD option"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDial" />
+</androidx.constraintlayout.widget.ConstraintLayout>

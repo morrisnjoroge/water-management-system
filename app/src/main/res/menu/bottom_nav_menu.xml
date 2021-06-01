@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_Services"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_miscellaneous_services_24"
+        android:title="@string/services"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_Complaints"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_feedback"
+        android:title="Feedback"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_Logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_logout"
+        android:title="Logout"
+        app:showAsAction="ifRoom" />
+
+</menu>

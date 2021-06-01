@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35241302783",
+    "project_id": "community-water-mis",
+    "storage_bucket": "community-water-mis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35241302783:android:3a4acc8ffd3a37a89d0aca",
+        "android_client_info": {
+          "package_name": "com.example.communitywatermis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35241302783-7onegcjpv2p6pcimml0no06e5r8rlalv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbBTH2O7JbV5aTBxUki6Em073X2NvODxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35241302783-7onegcjpv2p6pcimml0no06e5r8rlalv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
